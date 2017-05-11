@@ -1,0 +1,239 @@
+@font-face {
+  font-family: "Dancing Script";
+}
+
+body{
+  background-color: black;
+}
+
+@-webkit-keyframes
+animacion-slidein
+  {
+    0%{
+      margin-top: 150%;
+          }
+          60%{
+            margin-top:-5%;
+          }
+          100%{
+            margin-top: 0;
+          }
+  }
+
+
+body {
+animation-name: animacion-slidein;
+animation-duration: 1s;
+}
+
+header{
+  height: 150px;
+  background-color:#5b7989;
+  width: 80%;
+  margin-left: 10%;
+  border-top-right-radius:10px;
+  border-top-left-radius: 10px;
+
+
+}
+
+header,h1{
+  font-family: "Dancing Script";
+  font-size: 35px;
+  color: white;
+  text-shadow: 2px solid #02010a;
+
+}
+
+
+#inicio{
+  text-decoration: none;
+}
+
+h1{
+  text-shadow: 2px 2px 2px #02010a;
+}
+
+
+nav > a{
+  font-family: "Dancing Script";
+  font-size: 35px;
+  color: white;
+  margin-left: 5%;
+  display: inline-block;
+
+}
+
+#menu{
+  margin-left: 70%;
+}
+
+#Cuerpo{
+  width: 80%;
+  margin-left: 10%;
+  background-color:#d5c75f;
+  height:350px;
+  clear: both;
+  height: 500px;
+}
+
+#linea1>img{
+  margin-left: 5%;
+  margin-top: 5%;
+  box-shadow: 2px 2px 2px   #02010a;
+  height: auto;
+  }
+
+#linea1{
+  margin-left: 5%;
+}
+
+
+#sweet1{
+  -webkit-filter:blur(10px);
+  filter: blur(10px);
+}
+
+#par{
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+
+#sweet3{
+  -webkit-filter:sepia(90%);
+  filter:sepia(90%);
+}
+
+footer{
+  border: 4px  black;
+  background-color: #C6d5c5;
+  height: 200px;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#contacto{
+
+  font-family: "Dancing Script";
+  font-size: 15px;
+  color: black;
+  text-align: left;
+}
+
+
+#politicas{
+  margin-left: 10%;
+  font-family: "Dancing Script";
+  font-size: 15px;
+  color: black;
+  text-align: left;
+}
+
+#redes{
+  margin-left: 12%;
+  font-family: "Dancing Script";
+  font-size: 15px;
+  color: black;
+  text-align: left;
+}
+
+#derechos{
+  margin-left: 10%;
+  font-family: "Dancing Script";
+  font-size: 15px;
+  color: black;
+}
+
+#contenido{
+width: 100%;
+ margin: 0 auto;
+ overflow: hidden;
+}
+
+body{
+  width: 100%;
+}
+@media only screen and (max-width: 900px) {
+header{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  }
+  nav{
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+#Cuerpo{
+  height: 100%;
+  width: auto;
+  margin: auto;
+}
+
+#linea1{
+  width: auto;
+  margin:auto ;
+  height: auto;
+  padding-right:10px;
+  padding-left: 10px;
+
+}
+
+#Cuerpo>#linea1>#sweet1{
+  width: 100%;
+  margin: auto;
+  height: auto;
+  padding-bottom: 5px;
+}
+
+#sweet1,#par,#sweet3,#sweet5{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#Cuerpo>#linea1>#par{
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+
+}
+#Cuerpo>#linea1>#sweet3{
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+
+}
+#Cuerpo>#linea1>#sweet5{
+  width: 100%;
+  margin: auto;
+  height: auto;
+
+}
+
+footer{
+  display: flex;
+  flex-flow: column;
+  height: auto;
+  margin:auto;
+  width: 100%;
+}
+
+#menu{
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+}
+body{
+  width: auto;
+}
+}
+
+@media screen and (min-width:600px){
+  #contenido{
+    width: 100%;
+    margin: auto;
+  }
+}
